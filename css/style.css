@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.top-section{
+    background-image: linear-gradient(45deg, rgba(75, 71, 19, 0.8), rgba(78, 57, 10, 0.8) ), url(../img/insur\ img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.card-body{
+    background-color: rgb(245, 236, 118);
+}
+hr{
+    color: blue;
+}
+#newsletter{
+    background-color: rgb(245, 236, 118);
+}
+#we-offer{
+    background-color: beige;
+}
+
+ i{
+     margin-right: 10px;
+ }
+ #about-page{
+    background-color: rgb(38, 109, 122);
+    min-height: 120vh;
+ }
+ #about-page h3, #about-page h4, #contact-us h3, #contact-us h5, #contact-us h4{
+     color: white;
+ }
+ #about-page p, #contact-us p {
+     line-height: 35px;
+     letter-spacing: -0.01em;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+ }
+ #about-page h3, #contact-us h3, #contact-us h5, #we-offer h5{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ #about-page h5, #about-page h4,  #contact-us h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #we-offer p, #newsletter p, #card-section p{
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+  #we-offer h4, .health h4, .auto h4, .home h4{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .form-container{
+     background-color: white;
+     padding: 20px;
+     margin: 0 auto;
+     border-radius: 8px;
+     width: 70%;
+ }
+ #contact-us{
+    background-color: rgb(38, 109, 122);
+ }
+ .btn{
+     margin-left: 80px;
+ }
+   /* mobile-view */
+ @media screen and (max-width: 460px) {
+    #about-page{
+        height: 210vh;
+    }
+ } 
+ /* tablet-view */
+ @media screen and (max-width: 760px) {
+    #about-page{
+       min-height: 120vh;
+    }
+ }
