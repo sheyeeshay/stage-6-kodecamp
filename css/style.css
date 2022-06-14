@@ -10,28 +10,17 @@
    background-size: cover;
    background-attachment: fixed;
 }
-.card-body{
+.card-body, #newsletter, #contact-us, .navbar{
     background-color: rgb(245, 236, 118);
 }
 hr{
     color: blue;
 }
-#newsletter{
-    background-color: rgb(245, 236, 118);
-}
 #we-offer{
     background-color: beige;
 }
-
  i{
      margin-right: 10px;
- }
- #about-page{
-    background-color: rgb(38, 109, 122);
-    min-height: 120vh;
- }
- #about-page h3, #about-page h4, #contact-us h3, #contact-us h5, #contact-us h4{
-     color: white;
  }
  #about-page p, #contact-us p {
      line-height: 35px;
@@ -58,23 +47,10 @@ hr{
      padding: 20px;
      margin: 0 auto;
      border-radius: 8px;
-     width: 70%;
- }
- #contact-us{
-    background-color: rgb(38, 109, 122);
+     width: 90%;
  }
  .btn{
-     margin-left: 80px;
+     margin-left: 150px;
+     font-size: 15px;
  }
-   /* mobile-view */
- @media screen and (max-width: 460px) {
-    #about-page{
-        height: 210vh;
-    }
- } 
- /* tablet-view */
- @media screen and (max-width: 760px) {
-    #about-page{
-       min-height: 120vh;
-    }
- }
+   
