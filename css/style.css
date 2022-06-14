@@ -53,11 +53,17 @@ hr{
      margin-left: 130px;
      font-size: 15px;
  }
-  /* mobile view  */
-  @media screen and (max-width: 460px) {
+  /*mobile view  */
+   @media screen and (max-width: 460px) {
     .btn{
         margin-left: 95px;
      font-size: 12px;
     }
     
+  }
+  @media screen and (max-width: 365px) {
+    .btn{
+        margin-left: 85px;
+     font-size: 12px;
+    }
   }
