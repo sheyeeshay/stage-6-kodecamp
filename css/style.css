@@ -10,7 +10,7 @@
    background-size: cover;
    background-attachment: fixed;
 }
-.card-body, #newsletter, #contact-us, .navbar{
+.card-body, #newsletter, #contact-us{
     background-color: rgb(245, 236, 118);
 }
 hr{
