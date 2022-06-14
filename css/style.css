@@ -56,7 +56,7 @@ hr{
   /* mobile view  */
   @media screen and (max-width: 460px) {
     .btn{
-        margin-left: 115px;
+        margin-left: 95px;
      font-size: 12px;
     }
     
